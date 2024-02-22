@@ -1,0 +1,91 @@
+@media (min-width: 776px) {
+  nav{
+    box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+  }
+  .navbar-nav {
+    width: 30rem;
+  }
+}
+@media (min-width: 992px) {
+  nav .nav-link {
+    font-size: 14px;
+  }
+  .navbar-nav {
+    width: 38rem;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    width: 35rem;
+  }
+}
+@media (max-width: 777px) {
+  nav {
+    background-color: #fff;
+  }
+  nav .navbar-nav {
+    background-color: #fff;
+    width: 100%;
+    border-top: 1px solid #f7f7f7;
+  }
+  nav .nav-link {
+    color: #111;
+  }
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link.show {
+    --bs-navbar-active-color: #111;
+  }
+  nav .nav-link:focus,
+  nav .nav-link:hover {
+    --bs-nav-link-hover-color: #111;
+  }
+
+  /* ---start-typing-anmimation-- */
+  .type h2,
+  .type .type-text {
+    font-size: 30px;
+  }
+
+  @keyframes Larry-Daniels {
+    0%,
+    30%,
+    100% {
+      width: 0;
+    }
+    15%,
+    22.5% {
+      width: calc(15.2px * 13);
+    }
+  }
+  @keyframes developer {
+    0%,
+    30%,
+    60%,
+    100% {
+      width: 0;
+    }
+    45%,
+    50% {
+      width: calc(14px * 11);
+    }
+  }
+  @keyframes design {
+    0%,
+    60%,
+    90%,
+    100% {
+      width: 0;
+    }
+    75%,
+    82% {
+      width: calc(17px * 8);
+    }
+  }
+  /* ---end-typing-anmimation-- */
+  /* !--------------start header section------------*/
+  #home .social {
+    margin: auto;
+    width: 200px;
+  }
+  /* !--------------end header section------------*/
+}
