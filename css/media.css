@@ -1,6 +1,6 @@
 @media (min-width: 776px) {
-  nav{
-    box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+  nav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .navbar-nav {
     width: 30rem;
@@ -88,4 +88,9 @@
     width: 200px;
   }
   /* !--------------end header section------------*/
+  #works .carousel-control-next,
+  #works .carousel-control-prev {
+    width: 15%;
+    color: #848080;
+  }
 }
