@@ -436,9 +436,13 @@ nav .navbar-toggler:focus {
   opacity: 1;
   transition: var(--animation-duration);
 }
-.modal-body,
-.modal-header {
+#works .modal-body,
+#works .modal-header {
   padding: 0;
+}
+#works .modal-header{
+  position: relative;
+  bottom: -20px;
 }
 #works .modal-dialog {
   display: flex;
@@ -451,6 +455,8 @@ nav .navbar-toggler:focus {
 #works .modal-dialog .modal-content {
   background-color: transparent;
   border: 0;
+  width: 98%;
+  margin: auto;
 }
 #works .modal.bg-opcity {
   background-image: linear-gradient(
@@ -461,8 +467,16 @@ nav .navbar-toggler:focus {
 #works .btn-close {
   background-image: none;
   color: var(--section-color);
+  position: relative;
+  z-index: 10;
 }
-
+#works .btn-close i {
+  position: relative;
+  z-index: 10;
+}
+#works .carousel{
+  bottom: -20px;
+}
 #works .btn-close:focus {
   box-shadow: none;
 }
