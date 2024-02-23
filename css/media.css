@@ -1,25 +1,36 @@
 @media (min-width: 776px) {
+  /* ?--------------start navbar section----------- */
   nav {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .navbar-nav {
     width: 30rem;
   }
+   /* ?--------------end navbar section----------- */
 }
+
 @media (min-width: 992px) {
+    /* ?--------------start navbar section----------- */
   nav .nav-link {
     font-size: 14px;
   }
   .navbar-nav {
     width: 38rem;
   }
+  /* ?--------------end navbar section----------- */
+
+
 }
 @media (min-width: 1200px) {
+    /* ?--------------start navbar section----------- */
   .navbar-nav {
     width: 35rem;
   }
+    /* ?--------------end navbar section----------- */
+
 }
 @media (max-width: 777px) {
+    /* ?--------------start navbar section----------- */
   nav {
     background-color: #fff;
   }
@@ -39,7 +50,9 @@
   nav .nav-link:hover {
     --bs-nav-link-hover-color: #111;
   }
+  /* ?--------------end navbar section----------- */
 
+/* !--------------start header section------------*/
   /* ---start-typing-anmimation-- */
   .type h2,
   .type .type-text {
@@ -82,15 +95,18 @@
     }
   }
   /* ---end-typing-anmimation-- */
-  /* !--------------start header section------------*/
+ 
   #home .social {
     margin: auto;
     width: 200px;
   }
   /* !--------------end header section------------*/
+
+  /* ?--------------Start Works section------------*/
   #works .carousel-control-next,
   #works .carousel-control-prev {
     width: 15%;
     color: #848080;
   }
+  /* ?--------------end Works section------------*/
 }

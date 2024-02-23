@@ -119,29 +119,6 @@ header.title h3::before {
 .fs-14 {
   font-size: 14px;
 }
-.fs-20 {
-  font-size: 20px;
-}
-.slid-icon-left {
-  position: relative;
-  border: 15px solid;
-  border-color: transparent var(--section-color) transparent transparent;
-}
-.slid-icon-left::after {
-  content: "";
-  border-top-width: 21px;
-  border-bottom-width: 21px;
-  width: 1px;
-  height: 1px;
-  opacity: 0.7;
-  position: absolute;
-  left: 0px;
-  border-right: 27px solid #3f3f3f;
-}
-.slid-icon-right {
-  border: 15px solid;
-  border-color: transparent transparent transparent var(--section-color);
-}
 /* End General style */
 
 /* ?--------------start navbar section----------- */
@@ -354,6 +331,7 @@ nav .navbar-toggler:focus {
 #works {
   padding-block: 100px;
 }
+/* ----work-nav-slide---- */
 #works .nav-tabs,
 #works .nav-tabs .nav-link,
 #works .nav-tabs .nav-link:focus,
@@ -387,6 +365,7 @@ nav .navbar-toggler:focus {
 #works .nav-tabs .nav-link.active span::before {
   width: 100%;
 }
+/* ----work-nav-content---- */
 #works .tab-content .img-layer span {
   width: 30px;
   height: 30px;
@@ -411,6 +390,7 @@ nav .navbar-toggler:focus {
   top: -20px;
   transition: var(--animation-duration);
 }
+/* ----work-content-layer---- */
 #works .tab-content .img-layer {
   left: 5px;
   right: 5px;
@@ -437,6 +417,7 @@ nav .navbar-toggler:focus {
   opacity: 1;
   transition: var(--animation-duration);
 }
+/* ----work-modal---- */
 #works .modal-body,
 #works .modal-header {
   padding: 0;
@@ -475,6 +456,7 @@ nav .navbar-toggler:focus {
   position: relative;
   z-index: 10;
 }
+/* ----work-carousel---- */
 #works .carousel{
   bottom: -20px;
 }
