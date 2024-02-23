@@ -270,7 +270,7 @@ nav .navbar-toggler:focus {
   background-image: url("../image/dots.png");
   position: absolute;
   height: 80%;
-  width: 100%;
+  width: 80%;
   left: -1px;
   bottom: -27px;
   z-index: -1;
