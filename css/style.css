@@ -624,5 +624,7 @@ nav .navbar-toggler:focus {
 #footer p {
   font-size: 13px;
   color: #748182;
+  word-spacing: 2px;
+  line-height: 1.6;
 }
 /* &--------------End Footer section------------*/
