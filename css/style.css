@@ -119,6 +119,39 @@ header.title h3::before {
 .fs-14 {
   font-size: 14px;
 }
+
+.angle-right{
+  display:inline-block;
+  border:11px solid;
+  border-color:transparent transparent transparent  #FFFFFf;
+  position:relative;
+   
+}
+.angle-right:before{
+  content:" ";
+  border:19px solid;
+  border-color:transparent   transparent transparent #3f3f3f;
+  position:absolute;
+  top:-19px;
+  left:-14px;
+  z-index:-1;
+}
+.angle-left{
+  display:inline-block;
+  border:11px solid;
+  border-color:transparent #FFFFFf transparent transparent  ;
+  position:relative;
+   
+}
+.angle-left:before{
+  content:" ";
+  border:19px solid;
+  border-color:transparent #3f3f3f transparent transparent ;
+  position:absolute;
+  top:-19px;
+ right:-14px;
+  z-index:-1;
+}
 /* End General style */
 
 /* ?--------------start navbar section----------- */
