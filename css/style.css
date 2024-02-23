@@ -422,7 +422,7 @@ nav .navbar-toggler:focus {
 #works .modal-header {
   padding: 0;
 }
-#works .modal-header{
+#works .modal-header {
   position: relative;
   bottom: -20px;
 }
@@ -457,7 +457,7 @@ nav .navbar-toggler:focus {
   z-index: 10;
 }
 /* ----work-carousel---- */
-#works .carousel{
+#works .carousel {
   bottom: -20px;
 }
 #works .btn-close:focus {
@@ -552,6 +552,12 @@ nav .navbar-toggler:focus {
   transform: scale(1) rotateY(360deg);
   opacity: 1;
   visibility: visible;
+}
+#team .card img {
+  transition: var(--animation-duration);
+}
+#team .card .img-area:hover img {
+  transform: scale(1.2);
 }
 /* !--------------end Team section------------*/
 
